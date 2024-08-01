@@ -1,0 +1,569 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+   "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+   "context": [""]
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+   "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+   "context": [""]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+   "responses": ["Happy to help!", "Any time!", "My pleasure"],
+   "context": [""]
+  },
+  {"tag": "noanswer",
+   "patterns": [],
+   "responses": ["Sorry, can't understand you", "Please give me more info"],
+   "context": [""]
+  },
+  {"tag": "options",
+   "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+   "responses": ["I can guide you through vaccine related quries"],
+   "context": [""]
+  },
+  {"tag": "who td1",
+  "patterns": ["who can take Td-1 vaccine?", "who can take first dose of td vaccine?","TD-1","td-1","td1","TD1","who first dose of td","who 1st td","who td first"],
+  "responses": ["The Td-1 vaccine(first dose of Td vaccine) is typically recommended for pregnant women during their first prenatal visit. This is the initial checkup with a healthcare professional after finding out you're pregnant. If the vaccine is not administered at this visit, it can still be given up to 4 weeks before your Expected Date of delivery  (EDD).  However, it is recommended to get the vaccine at any point during pregnancy if not received earlier.",
+  "The first dose of Td vaccine(Td-1) is typically recommended for pregnant women during their first prenatal visit. This is the initial checkup with a healthcare professional after finding out you're pregnant. If the vaccine is not administered at this visit, it can still be given up to 4 weeks before your Expected Date of delivery  (EDD).  However, it is recommended to get the vaccine at any point during pregnancy if not received earlier."],
+  "context": [""]
+ },
+ {"tag": "when td1",
+  "patterns": ["When to take Td-1 vaccine?", "When to take first dose of td vaccine?","TD-1","td-1","td1","TD1","when first dose of td","when 1st td","when td first"],
+  "responses": ["Pregnant women are typically offered a Td-1 vaccine(first dose of Td vaccine) during their first antenatal visit, which is the initial checkup with a healthcare professional after finding out they're pregnant. If the vaccine is missed at this visit, it can still be administered up to 4 weeks before the Expected Date of delivery (EDD). However, vaccination is recommended anytime during pregnancy if not received earlier.",
+  "Pregnant women are typically offered first dose of Td vaccine(Td-1) during their first antenatal visit, which is the initial checkup with a healthcare professional after finding out they're pregnant. If the vaccine is missed at this visit, it can still be administered up to 4 weeks before the Expected Date of delivery (EDD). However, vaccination is recommended anytime during pregnancy if not received earlier."],
+  "context": [""]
+ },
+
+ {"tag": "who td2",
+ "patterns": ["who can take Td-2 vaccine?", "who can take second dose of td vaccine?","TD-2","td-2","td2","TD2","who second dose of td","who 2nd td","who td second"],
+ "responses": ["The Td-2 vaccine(second dose of Td vaccine) is typically recommended for pregnant women and it can be given any time after the 4 weeks from the day of receiving Td-1 vaccine."],
+ "context": [""]
+},
+{"tag": "when td2",
+ "patterns": ["When to take Td-2 vaccine?", "When to take second dose of td vaccine?","TD-2","td-2","td2","TD2","when second dose of td","when 2nd td","when td second"],
+ "responses": ["The Td-2 vaccine(second dose of Td vaccine) is typically offered to the Pregnant women,any time after the 4 weeks from the day of receiving Td-1 vaccine.",
+"The second dose of Td vaccine(Td-2) is typically offered to the Pregnant women,any time after the 4 weeks from the day of receiving Td-1 vaccine."],
+ "context": [""]
+},
+{"tag": "who Td-Booster",
+  "patterns": ["who can take Td-Booster vaccine?", "who can take Td Booster vaccine?","who TD-Booster","who td-booster","who tdbooster","who TDBOOSTER","booster td","pregnancy booster","booster"],
+  "responses": ["Td Booster vaccine is typically recommended for the pregnant women if they have received both Td-1 and Td-2 vaccine doses during  pregnancy within the last 3 years, the Td-Booster vaccine can be given up to 4 weeks before your Expected Date of delivery(EDD) ,If not received, any time before delivery.",
+  "Td Booster vaccine is typically recommended for the pregnant women if they have received both Td-1 and Td-2 vaccine doses during  pregnancy within the last 3 years, the Td-Booster vaccine can be given up to 4 weeks before your Expected Date of delivery(EDD) ,If not received, any time before delivery."],
+  "context": [""]
+ },
+ {"tag": "when Td-Booster",
+  "patterns": ["When to take Td-Booster vaccine?", "When to take Td Booster vaccine?","who TD-Booster","who td-booster","who tdbooster","who TDBOOSTER","pregnancy booster","booster"],
+  "responses": ["Td-Booster vaccine is given to the pregnant women if they have received both Td-1 and Td-2 vaccine doses during  pregnancy within the last 3 years, the Td-Booster vaccine can be given up to 4 weeks before your Expected Date of delivery(EDD) ,If not received any time before delivery.",
+  "Td Booster vaccine is given to the pregnant women if they have received both Td-1 and Td-2 vaccine doses during  pregnancy within the last 3 years, the Td-Booster vaccine can be given up to 4 weeks before your Expected Date of delivery(EDD) ,If not received any time before delivery."],
+  "context": [""]
+ },
+
+
+{"tag": "Td pregnant",
+  "patterns": ["pregnant vaccine?", "pregnancy vaccine?","pregnant","mother vaccine","mother","when to take pregnancy vaccine"],
+  "responses": ["The td vaccine can be given to the pregnant women in 2 doses: The First dose of Td vaccine is typically recommended for pregnant women during their first prenatal visit. This is the initial checkup with a healthcare professional after finding out you're pregnant. If the vaccine is not administered at this visit, it can still be given up to 4 weeks before your Expected Date of delivery  (EDD).  However, it is recommended to get the vaccine at any point during pregnancy if not received earlier and the Second dose of Td vaccine is typically offered to the Pregnant women,any time after the 4 weeks from the day of receiving Td-1 vaccine. Td Booster vaccine is typically recommended for the pregnant women if they have received both Td-1 and Td-2 vaccine doses during  pregnancy within the last 3 years, the Td-Booster vaccine can be given up to 4 weeks before your Expected Date of delivery(EDD) ,If not received, any time before delivery. "],
+  "context": [""]
+ },
+
+
+
+ {"tag":"who BCG",
+    "patterns":["who can take BCG vaccine?","who can take bcg vaccine?","bcg","BCG"],
+    "responses":["BCG vaccine is given to the infant at birth or as early as possible till one year of age, before 1st birth day."],
+    "context":[""]
+ },
+ {
+    "tag":"when BCG",
+    "patterns":["when to take BCG vaccine?","when to take bcg vaccine?","bcg","BCG"],
+    "responses":["BCG vaccine is typically given to infants at birth or as soon as possible till one year of age, before 1st birth day."],
+    "context":[""]
+ },
+ 
+ {
+    "tag":"who Hepatitis B-Birth vaccine",
+    "patterns":["who can take Hepatitis B-Birth vaccine?","who can take hepatitis b-birth vaccine?","hepatitis","b-birth","bbirth","child hepatitis","hepatitis b birth"],
+    "responses":["Hepatitis B -Birth vaccine is given to the infants at the time of birth(within 24 hrs of birth)."],
+    "context":[""]
+ },
+ {
+    "tag":"when Hepatitis B-Birth vaccine",
+    "patterns":["when to take Hepatitis B-Birth vaccine?","when to take hepatitis b-birth vaccine?","hepatitis","b-birth","bbirth","child hepatitis","hepatitis b birth"],
+    "responses":["Hepatitis B-Birth vaccine is typically given to the infants within the 24 hours of birth."],
+    "context":[""]
+ },
+
+ {"tag": "who bOPV-0",
+ "patterns": ["who can take bOPV-0 vaccine?", "who can take zero dose of bOPV vaccine?","who can take zero dose of bopv vaccine?","bOPV-0","bopv0"],
+ "responses": ["bOPV-0(Zero dose) vaccine is typically given to the infants at birth or as early as possible within 15 days of birth."
+ ],
+ "context": [""]
+},
+{"tag": "when bOPV-0",
+ "patterns": ["when to take bOPV-0 vaccine?", "when to take zero dose of bopv vaccine?","bOPV-0","bopv0"],
+ "responses": ["bOPV-0(Zero dose) vaccine usually administered to the infants within the first 15 days of birth."],
+ "context": [""]
+},
+{"tag": "who bOPV-1",
+ "patterns": ["who can take bOPV-1 vaccine?","who can take first dose of bOPV vaccine?", "who can take first dose of bopv vaccine?","bopv-1","bopv1","1st bopv","1st bOPV"],
+ "responses": ["bOPV-1 vaccine(First dose of bOPV) is usually administered to infants at 6 weeks old, or it can be given anytime up to their 5th birthday if it's missed."
+ ],
+ "context": [""]
+},
+{"tag": "when bOPV-1",
+ "patterns": ["when to take bOPV-1 vaccine?","when to take first dose of bOPV vaccine?", "when to take first dose of bopv vaccine?","bopv-1","bopv1","1st bopv","1st bOPV"],
+ "responses": ["The recommended time for the bOPV-1(First dose of bOPV) vaccination is 6 weeks of age, but it can be given up to 5 years of age if the initial dose is missed."],
+ "context": [""]
+},
+{"tag": "who bOPV-2",
+ "patterns": ["who can take bOPV-2 vaccine?","who can take second dose of bOPV vaccine?", "who can take second dose of bopv vaccine?","bOPV-2","bopv-2","bopv2","2nd bopv","2nd bOPV"],
+ "responses": ["bOPV-2(Second dose of bOPV) vaccine is usually administered to infants at 10 weeks old, or it can be given anytime up to their 5th birthday if it's missed."
+ ],
+ "context": [""]
+},
+{"tag": "when bOPV-2",
+ "patterns": ["when to take bOPV-2 vaccine?","when to take Second dose of bOPV vaccine?", "when to take zero dose of bopv vaccine?","bOPV-2","bopv-2","bopv2","2nd bopv","2nd bOPV"],
+ "responses": ["The recommended time for the bOPV-2(Second dose of bOPV) vaccination is 10 weeks of age, but it can be given up to 5 years of age if the initial dose is missed."],
+ "context": [""]
+},
+{"tag": "who bOPV-3",
+ "patterns": ["who can take bOPV-3 vaccine?", "who can take zero dose of bopv vaccine?","bOPV-0","bopv-0","bopv0","3rd bopv","3rd bOPV"],
+ "responses": ["bOPV-0(Third of dose of bOPV) vaccine is typically given to the infants at birth or as early as possible within 15 days of birth."
+ ],
+ "context": [""]
+},
+{"tag": "when bOPV-3",
+ "patterns": ["when to take bOPV-3 vaccine?","when to take Third dose of bOPV vaccine?","when to take third dose of bopv vaccine?","bOPV-3","bopv-3","bopv3","3rd bopv","3rd bOPV"],
+ "responses": ["The recommended time for the bOPV-3(Third dose of bOPV) vaccination is 14 weeks of age, but it can be given up to 5 years of age if the initial dose is missed."],
+ "context": [""]
+},
+{"tag": "who bOPV",
+ "patterns": ["who can take bOPV vaccine?", "who can take bopv vaccine?","bOPV","bopv","bopv"],
+ "responses": ["The bOPV vaccine is typically given to infants in four doses: a zero dose at birth or within 15 days, followed by first doses at 6 weeks, second dose at 10 weeks, and third dose at 14 weeks old. If any dose is missed, it can be administered up to the infant's 5th birthday."
+ ],
+ "context": [""]
+},
+{"tag": "when bOPV",
+ "patterns": ["when to take bOPV vaccine?", "when to take bopv vaccine?","bOPV","bopv","bopv"],
+ "responses": ["The bOPV vaccine is typically given to infants in four doses:bOPV-0(Zero dose) vaccine usually administered to the infants within the first 15 days of birth. The recommended time for the bOPV-1 vaccination(first dose) is 6 weeks of age, but it can be given up to 5 years of age if the initial dose is missed. The recommended time for the bOPV-2 vaccination(second dose) is 10 weeks of age, but it can be given up to 5 years of age if the initial dose is missed.The recommended time for the bOPV-3 vaccination(third dose) is 14 weeks of age, but it can be given up to 5 years of age if the initial dose is missed."],
+ "context": [""]
+},
+{"tag": "who Rotavirus vaccine-1",
+   "patterns": ["who can take  Rotavirus vaccine-1?","who can take first dose of Rotavirus vaccine?", "who can take  Rotavirus vaccine 1?","Rotavirus vaccine-1","Rotavirus vaccine 1","rotavirus vaccine 1","Rotavirus vaccine1","rotavirus","rotavirus 1","rota1","rota-1","1st rota virus","1st rotavirus"],
+   "responses": ["The Rotavirus vaccine-1(first dose) is usually administered to infants at 6 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed.",
+   "The Rotavirus vaccine-1 is usually administered to infants at 6 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed."],
+   "context": [""]
+  },
+  {"tag": "when Rotavirus vaccine-1",
+   "patterns": ["When to take Rotavirus vaccine-1?","when to take first dose of Rotavirus vaccine?","When to take Rotavirus vaccine 1?","Rotavirus vaccine-1","Rotavirus vaccine 1","rota1","rota-1","rotavirus vaccine 1","Rotavirus vaccine1","rotavirus","rotavirus 1","1st rota virus","1st rotavirus"],
+   "responses": ["The first dose of Rotavirus vaccine is recommended for infants at 6 weeks of age, with a grace period of up to 1 year for delayed or missed vaccinations.",
+   "The first dose of Rotavirus vaccine is recommended for infants at 6 weeks of age, with a grace period of up to 1 year for delayed or missed vaccinations."],
+   "context": [""]
+  },
+  {"tag": "who Rotavirus vaccine-2",
+  "patterns": ["who can take  Rotavirus vaccine-2?","who can take second dose of Rotavirus vaccine?", "who can take Rotavirus vaccine 2?","Rotavirus vaccine-2","Rotavirus vaccine 2","rotavirus vaccine 2","Rotavirus vaccine2","rotavirus","rotavirus 2","2nd rota virus","2nd rotavirus"],
+  "responses": ["The Rotavirus vaccine-2(second dose) is usually administered to infants at 10 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed.",
+  "The Rotavirus vaccine-2 is usually administered to infants at 10 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed."],
+  "context": [""]
+ },
+ {"tag": "when Rotavirus vaccine-2",
+ "patterns": ["when can take  Rotavirus vaccine-2?","when to take second dose of Rotavirus vaccine?", "when can take  Rotavirus vaccine 2?","Rotavirus vaccine-2","Rotavirus vaccine 2","rotavirus vaccine 2","Rotavirus vaccine2","rotavirus","rotavirus 2","2nd rota virus","2nd rotavirus"],
+ "responses": ["The second dose of Rotavirus vaccine is recommended for infants at 10 weeks of age, with a grace period of up to 1 year for delayed or missed vaccinations.",
+ "The second dose of Rotavirus vaccine is recommended for infants at 10 weeks of age, with a grace period of up to 1 year for delayed or missed vaccinations."],
+ "context": [""]
+},
+{"tag": "who Rotavirus vaccine-3",
+  "patterns": ["who can take  Rotavirus vaccine-3?","who can take third dose of Rotavirus vaccine?", "who can take  Rotavirus vaccine 3?","Rotavirus vaccine-3","Rotavirus vaccine 3","rotavirus vaccine 3","Rotavirus vaccine3","rotavirus","rotavirus 3","3rd rota virus","3rd rotavirus"],
+  "responses": ["The Rotavirus vaccine-3(third dose) is usually administered to infants at 14 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed."
+  ,"The Rotavirus vaccine-3 is usually administered to infants at 14 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed."],
+  "context": [""]
+ },
+ {"tag": "when Rotavirus vaccine-3",
+  "patterns": ["when can take  Rotavirus vaccine-3?","when to take third dose of Rotavirus vaccine?", "when can take  Rotavirus vaccine 3?","Rotavirus vaccine-3","Rotavirus vaccine 3","rotavirus vaccine 3","Rotavirus vaccine3","rotavirus","rotavirus 3","3rd rota virus","3rd rotavirus"],
+  "responses": ["The third dose of Rotavirus vaccine is recommended for infants at 14 weeks of age, with a grace period of up to 1 year for delayed or missed vaccinations.",
+  "The third dose of Rotavirus vaccine is recommended for infants at 14 weeks of age, with a grace period of up to 1 year for delayed or missed vaccinations."],
+  "context": [""]
+ },
+ {"tag": "who Rotavirus vaccine",
+  "patterns": ["who can take  Rotavirus vaccine?", "who can take  Rotavirus vaccine?","Rotavirus vaccine","Rotavirus vaccine","rotavirus vaccine","Rotavirus vaccine","rotavirus"],
+  "responses": ["The Rotavirus vaccine is typically administered to infants in three doses: the first dose at 6 weeks old, the second dose at 10 weeks old, and the third dose at 14 weeks old. However, if any dose is missed or delayed, it can be given up to the infant's 1st birthday.",
+  "The Rotavirus vaccine is typically administered to infants in three doses: the first dose at 6 weeks old, the second dose at 10 weeks old, and the third dose at 14 weeks old. However, if any dose is missed or delayed, it can be given up to the infant's 1st birthday."],
+  "context": [""]
+ },
+ {  "tag": "when Rotavirus vaccine",
+ "patterns": ["when can take  Rotavirus vaccine?", "when can take  Rotavirus vaccine?","Rotavirus vaccine","Rotavirus vaccine","rotavirus vaccine","Rotavirus vaccine","rotavirus"],
+ "responses": ["The first dose of Rotavirus vaccine is recommended for infants at 6 weeks of age, with a grace period of up to 12 months for delayed or missed vaccinations, The second dose of Rotavirus vaccine is recommended for infants at 10 weeks of age, with a grace period of up to 12 months for delayed or missed vaccinations, The third dose of Rotavirus vaccine is recommended for infants at 14 weeks of age, with a grace period of up to 12 months for delayed or missed vaccinations.",
+ "The first dose of Rotavirus vaccine is recommended for infants at 6 weeks of age, with a grace period of up to 12 months for delayed or missed vaccinations, The second dose of Rotavirus vaccine is recommended for infants at 10 weeks of age, with a grace period of up to 12 months for delayed or missed vaccinations, The third dose of Rotavirus vaccine is recommended for infants at 14 weeks of age, with a grace period of up to 12 months for delayed or missed vaccinations."],
+ "context":[""]
+ },
+
+ {"tag": "who f-IPV vaccine-1",
+   "patterns": ["who can take f-IPV vaccine-1?","who can take first dose of f-IPV vaccine-1?", "who can take f-IPV vaccine 1?","f-IPV 1","fipv 1"],
+   "responses": ["The f-IPV vaccine-1 is usually administered to infants at 6 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed."],
+   "context": [""]
+  },
+  {"tag": "when f-IPV vaccine-1",
+   "patterns": ["When to take f-IPV vaccine-1?","when to take first dose of f-IPV vaccine-1?","When to take f-IPV vaccine 1?","f-IPV 1","fipv 1"],
+   "responses": ["Infants typically receive the first dose of f-IPV vaccine at 6 weeks, but it can be given up to their first birthday if necessary."],
+   "context": [""]
+  },
+  {"tag": "who f-IPV vaccine-2",
+   "patterns": ["who can take f-IPV vaccine-2?","who can take first dose of f-IPV vaccine-2?", "who can take f-IPV vaccine 2?","f-IPV 2","fipv 2"],
+   "responses": ["The f-IPV vaccine-2 is usually administered to infants at 14 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed."],
+   "context": [""]
+  },
+  {"tag": "when f-IPV vaccine-2",
+   "patterns": ["When to take f-IPV vaccine-2?","when to take second dose of f-IPV vaccine-2?","When to take f-IPV vaccine 2?","f-IPV 2","fipv 2"],
+   "responses": ["The f-IPV vaccine-2 is usually administered to infants at 14 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed."],
+   "context": [""]
+  },
+  {"tag": "who f-IPV vaccine-3",
+   "patterns": ["who can take f-IPV vaccine-3?","who can take second dose of f-IPV vaccine-3?", "who can take f-IPV vaccine 3?","f-IPV 3","fipv 3"],
+   "responses": ["The f-IPV vaccine-3 is usually administered to infants at 9 -11 months, or it can be given anytime up to their 1st birthday if it is missed or delayed."],
+   "context": [""]
+  },
+  {"tag": "when f-IPV vaccine-3",
+   "patterns": ["When to take f-IPV vaccine-3?","when to take third dose of f-IPV vaccine-1?","When to take f-IPV vaccine 3?","f-IPV 1","fipv 3"],
+   "responses": ["Infants typically receive the third dose of f-IPV vaccine between 9-11 months, or it can be given anytime up to their first birthday if missed or delayed."],
+   "context": [""]
+  },
+  {"tag": "who f-IPV vaccine",
+   "patterns": ["who can take f-IPV vaccine?","who can take f-IPV vaccine?","f-IPV","fipv"],
+   "responses": ["The f-IPV vaccine is typically administered to infants in three doses: the first dose at 6 weeks old, the second dose at 14 weeks old, and the third dose at 9 -11 months. However, if any dose is missed or delayed, it can be given up to the infant's 1st birthday."],
+   "context": [""]
+  },
+  {"tag": "when f-IPV vaccine",
+   "patterns": ["When to take f-IPV vaccine?","when to take third dose of f-IPV vaccine-1?","When to take f-IPV vaccine 3?","f-IPV 1","fipv 3"],
+   "responses": ["Infants typically receive their first dose of f-IPV vaccine at 6 weeks, but it can be given up to their first birthday if necessary. The second dose is usually administered at 14 weeks, or anytime up to their first birthday if missed or delayed. The third dose is typically given between 9-11 months, or anytime up to their first birthday if missed or delayed."],
+   "context": [""]
+  },
+  {"tag": "who Pneumococcal Conjugate vaccine",
+   "patterns": ["who can take Pneumococcal Conjugate Vaccine?","who can take pneumococcal conjugate vaccine?"],
+   "responses": ["The Pneumococcal Conjugate Vaccine(PCV) consists of 2 primary doses and 1 booster dose. Infants typically receive the primary doses at 6 and 14 weeks of age, and the booster dose between 9 and 11 months. However, the booster dose can be given up to 1 year of age if an initial dose is missed."],
+   "context": [""]
+  },
+  {"tag": "who PCV vaccine",
+   "patterns": ["who can take PCV Vaccine?","who can take pcv vaccine?","pcv","PCV"],
+   "responses": ["The Pneumococcal Conjugate Vaccine(PCV) consists of 2 primary doses and 1 booster dose. Infants typically receive the primary doses at 6 and 14 weeks of age, and the booster dose between 9 and 11 months. However, the booster dose can be given up to 1 year of age if an initial dose is missed."],
+   "context": [""]
+  },
+  {"tag": "when Pneumococcal Conjugate vaccine",
+   "patterns": ["When to take Pneumococcal Conjugate Vaccine?","when to take pneumococcal conjugate vaccine? ?","When to take PC vaccine?","when to take pcv"],
+   "responses": ["Infants typically receive the primary doses at 6 and 14 weeks of age. The booster dose is usually given between 9 and 11 months, but it can be administered up to 1 year of age if an initial dose is missed."],
+   "context": [""]
+  },
+
+  {"tag": "who Pentavalent vaccine-1?",
+  "patterns": ["who can take Pentavalent vaccine-1?", "who can take  Pentavalent vaccine 1?","PENTAVALENT VACCINE-1","pentavalent vaccine 1","Pentavalent vaccine 1","Pentavalent vaccine-1","First dose of Pentavalent vaccine","First dose of pentavalent","PENTAVALENT VACCINE-1","pv1","PV1"],
+  "responses": ["The Pentavalent vaccine-1 is usually administered to infants at 6 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed.",
+  "The Pentavalent vaccine-1 is usually administered to infants at 6 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed."],
+  "context": [""]
+ },
+ {"tag": "when Pentavalent vaccine-1",
+ "patterns": ["when can take  Pentavalent vaccine-1?", "who can take  Pentavalent vaccine 1?","PENTAVALENT VACCINE-1","pentavalent vaccine 1","Pentavalent vaccine 1","Pentavalent vaccine-1","First dose of Pentavalent vaccine","First dose of pentavalent","PENTAVALENT VACCINE-1","pv1","PV1"],
+  "responses": ["Infants typically receive the first dose of Pentavalent vaccine at 6 weeks, but it can be given up to their first birthday if necessary.",
+  "Infants typically receive the first dose of Pentavalent vaccine at 6 weeks, but it can be given up to their first birthday if necessary."],
+  "context": [""]
+ },
+ {"tag": "who Pentavalent vaccine-2?",
+  "patterns": ["who can take  Pentavalent vaccine-2?", "who can take  Pentavalent vaccine 2?","Pentavalent vaccine-2","Pentavalent vaccine 2","pentavalent vaccine2","pentavalent vaccine 2","Second dose of Pentavalent vaccine","PENTAVALENT VACCINE-2","pv2","PV2"],
+  "responses": ["The Pentavalent vaccine-2 is usually administered to infants at 10 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed.",
+  "The Pentavalent vaccine-2 is usually administered to infants at 10 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed."],
+  "context": [""]
+ },
+ {"tag": "when Pentavalent vaccine-2",
+ "patterns": ["when can take  Pentavalent vaccine-2?", "when can take  Pentavalent vaccine 2?","Pentavalent vaccine-2","Pentavalent vaccine 2","pentavalent vaccine2","pentavalent vaccine 2","Second dose of Pentavalent vaccine","PENTAVALENT VACCINE-2","pv2","PV2","PV-2"],
+ "responses": ["Infants typically receive the second dose of Pentavalent vaccine at 10 weeks, but it can be given up to their first birthday if necessary.",
+ "Infants typically receive the second dose of Pentavalent vaccine at 10 weeks, but it can be given up to their first birthday if necessary."],
+  "context": [""]
+ },
+ {"tag": "who can take Pentavalent vaccine-3?",
+  "patterns": ["who can take  Pentavalent vaccine-3?", "who can take  Pentavalent vaccine 3?","Pentavalent vaccine-3","Pentavalent vaccine 3","pentavalent vaccine3","pentavalent vaccine 3","Third dose of Pentavalent vaccine","PENTAVALENT VACCINE-3","pv3","PV3"],
+  "responses": ["The Pentavalent vaccine-3 is usually administered to infants at 14 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed.",
+  "The Pentavalent vaccine-3 is usually administered to infants at 14 weeks old, or it can be given anytime up to their 1st birthday if it is missed or delayed."],
+  "context": [""]
+ },
+ {"tag": "when Pentavalent vaccine-3",
+ "patterns": ["when can take Pentavalent vaccine-3?", "when can take  Pentavalent vaccine 3?","Pentavalent vaccine-3","Pentavalent vaccine 3","pentavalent vaccine3","pentavalent vaccine 3","Third dose of Pentavalent vaccine","PENTAVALENT VACCINE-3","pv3","PV3","PV-3","pv 3"],
+ "responses": ["Infants typically receive the third dose of Pentavalent vaccine at 14 weeks, but it can be given up to their first birthday if necessary.",
+ "Infants typically receive the third dose of Pentavalent vaccine at 14 weeks, but it can be given up to their first birthday if necessary."],
+  "context": [""]
+ },
+ {"tag": "who can take Pentavalent vaccine?",
+  "patterns": ["who can take Pentavalent vaccine?","who can take  Pentavalent vaccine?","PENTAVALENT VACCINE","Pentavalent vaccine ","pentavalent vaccine ","Dose of Pentavalent vaccine","pv","PV"],
+  "responses": ["The Pentavalent vaccine is typically given to infants in three doses: at 6 weeks, 10 weeks, and 14 weeks old. However, if any dose is missed or delayed it can be given anytime up to their 1st birthday if it is missed or delayed.",
+  "The Pentavalent vaccine is typically given to infants in three doses: at 6 weeks, 10 weeks, and 14 weeks old. However, if any dose is missed or delayed it can be given anytime up to their 1st birthday if it is missed or delayed."],
+  "context": [""]
+ },
+ {"tag": "when Pentavalent vaccine?",
+ "patterns": ["when can take  Pentavalent vaccine?", "when can take  Pentavalent vaccine ?","PENTAVALENT VACCINE","Pentavalent vaccine ","pentavalent vaccine ","Dose of Pentavalent vaccine"],
+ "responses": ["The Pentavalent vaccine is administered to infants in three doses at 6, 10, and 14 weeks. If a dose is missed or delayed, it can be given at any time before the infant's first birthday.",
+ "The Pentavalent vaccine is administered to infants in three doses at 6, 10, and 14 weeks. If a dose is missed or delayed, it can be given at any time before the infant's first birthday."],
+ "context":[""]
+ },
+ {"tag": "who first dose of Measles Rubella vaccine?",
+  "patterns": ["who can take the first dose of Measles Rubella vaccine?", "who can take  Measles Rubella vaccine1?","first dose of Measles Rubella vaccine","Measles Rubella vaccine-1 ","Measles Rubella vaccine 1","MEASLES RUBELLA VACCINE 1","who can take the first dose of MR vaccine?","who can take MR vaccine 1?","first dose of MR vaccine","MR vaccine-1","MR1","mr1"],
+  "responses": ["The first dose of Measles Rubella vaccine is given to infants between 9-11 months, or it can be given anytime up to 5 years of age if missed or delayed.",
+  "The first dose of Measles Rubella vaccine is given to infants between 9-11 months, or it can be given anytime up to 5 years of age if missed or delayed."],
+  "context": [""]
+ },
+ {"tag": "When first dose Measles Rubella vaccine",
+ "patterns": ["when can take the first dose of Measles Rubella vaccine?", "when can take  Measles Rubella vaccine 1?","first dose of Measles Rubella vaccine","Measles Rubella vaccine-1 ","Measles Rubella vaccine 1","MEASLES RUBELLA VACCINE 1","when can take the first dose of MR vaccine?", "when can take  MR vaccine 1?","first dose of MR vaccine","MR vaccine-1","MR1","mr1"],
+ "responses": ["The recommended age for the first dose of Measles Rubella vaccine is 9-11 months, but it can be given up to 5 years of age if not received as scheduled.",
+ "The recommended age for the first dose of Measles Rubella vaccine is 9-11 months, but it can be given up to 5 years of age if not received as scheduled."],
+  "context":[""]
+ },
+
+
+ {"tag": "who can take second dose of Measles Rubella vaccine?",
+ "patterns": ["who can take the second dose of Measles Rubella vaccine?","who can take Measles Rubella vaccine-2?","who can Measles Rubella vaccine 2","second dose of Measles Rubella vaccine","Measles Rubella vaccine-2","MEASLES RUBELLA VACCINE-2","who can take the second dose of MR vaccine?", "who can take  MR vaccine 2?","second dose of MR vaccine","MR vaccine-2","MR2","mr2","mr-2","MR-2"],
+ "responses": ["The second dose of Measles Rubella vaccine is given to children between 16 and 23 months of age, or it can be given anytime up to 5 years of age if missed or delayed.",
+ "The second dose of Measles Rubella vaccine is given to children between 16 and 23 months of age, or it can be given anytime up to 5 years of age if missed or delayed."],
+ "context": [""]
+},
+{"tag": "when second dose of Measles Rubella vaccine?",
+"patterns": ["when to take the second dose of Measles Rubella vaccine?","when can take Measles Rubella vaccine-2?","when can Measles Rubella vaccine 2","second dose of Measles Rubella vaccine","Measles Rubella vaccine-2","MEASLES RUBELLA VACCINE-2","when can take the second dose of MR vaccine?", "when can take  MR vaccine 2?","second dose of MR vaccine","MR vaccine-2","MR2","mr2","mr-2","MR-2"],
+"responses": ["The recommended age for the second dose of Measles Rubella vaccine is between 16 and 23 months of age , but it can be given up to 5 years of age if not received as scheduled.",
+ "The recommended age for the second dose of Measles Rubella vaccine is between 16 and 23 months of age , but it can be given up to 5 years of age if not received as scheduled."],
+ "context": [""]
+},
+{"tag": "who can take Measles Rubella vaccine?",
+"patterns": ["who can take the Measles Rubella vaccine?","who can take Measles Rubella vaccine?","who can Measles Rubella vaccine","Measles Rubella vaccine","MEASLES RUBELLA VACCINE","who can take the MR vaccine?", "who can take  MR vaccine","MR vaccine","MR","mr"],
+"responses": ["The first dose of Measles Rubella vaccine is given to infants between 9-11 months, or it can be given anytime up to 5 years of age if missed or delayed. The second dose of Measles Rubella vaccine is given to children between 16 and 23 months of age, or it can be given anytime up to 5 years of age if missed or delayed.",
+ "The Measles Rubella vaccine is administered in two doses: the first between 9-11 months, and the second between 16-23 months. Both doses can be given up to 5 years of age if not received as scheduled."],
+ "context": [""]
+},
+{"tag": "when to take Measles Rubella vaccine?",
+"patterns": ["when can take the Measles Rubella vaccine?","when can take Measles Rubella vaccine?","when can Measles Rubella vaccine","Measles Rubella vaccine","MEASLES RUBELLA VACCINE","when can take the MR vaccine?", "when can take  MR vaccine","MR vaccine","MR","mr"],
+"responses": ["Measles Rubella vaccine is given in two doses: the first dose is recommended at 9-11 months, and the second dose is recommended at 16-23 months. However, both doses can be administered up to 5 years of age if the recommended schedule is not followed",
+ "Measles Rubella vaccine is given in two doses: the first dose is recommended at 9-11 months, and the second dose is recommended at 16-23 months. However, both doses can be administered up to 5 years of age if the recommended schedule is not followed"],
+ "context": [""]
+},
+ 
+
+  {"tag": "who can take first dose of JE vaccine?",
+   "patterns": ["who can take the first dose of JE vaccine?","who can take JE vaccine-1","first dose of JE vaccine","who can take JE vaccine 1","JE vaccine 1","JE VACCINE-1","who can take the first dose of Japanese Encephalitis vaccine?","first dose of Japanese Encephalitis vaccine","who can take Japanese Encephalitis vaccine-1","Japanese Encephalitis vaccine-1","je1","JE1","JE-1","je-1"],
+   "responses": ["The first dose of Japanese Encephalitis vaccine is given to infants between 9-11 months, or it can be given anytime up to 2 years of age if missed or delayed.",
+   "The first dose of Japanese Encephalitis vaccine is given to infants between 9-11 months, or it can be given anytime up to 2 years of age if missed or delayed."],
+   "context": [""]
+  },
+  {"tag": "when to take first dose of JE vaccine?",
+  "patterns": ["when can take the first dose of JE vaccine?","when can take JE vaccine-1","first dose of JE vaccine","when can take JE vaccine 1","JE vaccine 1","JE VACCINE-1","when can take the first dose of Japanese Encephalitis vaccine?","first dose of Japanese Encephalitis vaccine","when can take Japanese Encephalitis vaccine-1","Japanese Encephalitis vaccine 1","je1","JE1"],
+  "responses": ["The recommended age for the first dose of Japanese Encephalitis vaccine is 9-11 months, but it can be given up to 2 years of age if not received as scheduled.",
+  "The recommended age for the first dose of Japanese Encephalitis vaccine is 9-11 months, but it can be given up to 2 years of age if not received as scheduled."],
+   "context": [""]
+  },
+  {"tag": "who can take second dose of JE vaccine?",
+   "patterns": ["who can take the second dose of JE vaccine?","who can take JE vaccine-2","second dose of JE vaccine","who can take JE vaccine 2","JE vaccine 2","JE VACCINE-2","who can take the second dose of Japanese Encephalitis vaccine?","second dose of Japanese Encephalitis vaccine","who can take Japanese Encephalitis vaccine-2","Japanese Encephalitis vaccine-2","je2","JE2","je-2","JE-2"],
+   "responses": ["The second dose of Japanese Encephalitis vaccine is given to children between 16 and 23 months of age, or it can be given anytime up to 2 years of age if missed or delayed.",
+   "The second dose of Japanese Encephalitis vaccine is given to children between 16 and 23 months of age, or it can be given anytime up to 2 years of age if missed or delayed."],
+   "context": [""]
+  },
+  {"tag": "when to take second dose of JE vaccine?",
+  "patterns": ["when can take the second dose of JE vaccine?","when can take JE vaccine-2","second dose of JE vaccine","when can take JE vaccine 2","JE vaccine 2","JE VACCINE-2","when can take the second dose of Japanese Encephalitis vaccine?","second dose of Japanese Encephalitis vaccine","when can take Japanese Encephalitis vaccine-2","Japanese Encephalitis vaccine-2","je2","JE2","je-2","JE-2"],
+  "responses": ["The recommended age for the second dose of Japanese Encephalitis is given to children between 16 and 23 months of age, or it can be given anytime up to 2 years of age if missed or delayed.",
+  "The recommended age for the second dose of Japanese Encephalitis is given to children between 16 and 23 months of age, or it can be given anytime up to 2 years of age if missed or delayed."],
+   "context": [""]
+  },
+
+  {"tag": "who can take JE vaccine?",
+  "patterns": ["who can take the JE vaccine?","who can take JE vaccine","JE vaccine","JE VACCINE","who can take the Japanese Encephalitis vaccine?","Japanese Encephalitis vaccine","who can take Japanese Encephalitis vaccine","JAPANESE ENCEPHALITIS VACCINE","je","JE"],
+  "responses": ["The first dose of Japanese Encephalitis vaccine is given to infants between 9-11 months, or up to 2 years old if missed or delayed.The second dose of Japanese Encephalitis vaccine is given to children between 16 and 23 months of age, or it can be given anytime up to 2 years of age if missed or delayed.",
+  "The first dose of Japanese Encephalitis vaccine is given to infants between 9-11 months, or up to 2 years old if missed or delayed.The second dose of Japanese Encephalitis vaccine is given to children between 16 and 23 months of age, or it can be given anytime up to 2 years of age if missed or delayed."],
+   "context": [""]
+  },
+  {"tag": "when JE vaccine?",
+  "patterns": ["when can take the JE vaccine?","when can take JE vaccine","JE vaccine","JE VACCINE","when can take the Japanese Encephalitis vaccine?","Japanese Encephalitis vaccine","when can take Japanese Encephalitis vaccine","JAPANESE ENCEPHALITIS VACCINE","je","JE"],
+  "responses": ["The recommended age for the first dose of Japanese Encephalitis vaccine is 9-11 months, but it can be given up to 2 years of age if not received as scheduled and the second dose of Japanese Encephalitis is given to children between 16 and 23 months of age, or it can be given anytime up to 2 years of age if missed or delayed.",
+  "The recommended age for the first dose of Japanese Encephalitis vaccine is 9-11 months, but it can be given up to 2 years of age if not received as scheduled and the second dose of Japanese Encephalitis is given to children between 16 and 23 months of age, or it can be given anytime up to 2 years of age if missed or delayed."],
+   "context": [""]
+  },
+
+  {"tag": "who can take first dose of Vitamin A ?",
+   "patterns": ["who can take Vitamin A 1 ?","First dose of Vitamin A","VITAMIN A 1","who can take Vitamin A 1","who can take Vitamin A-1","who can take first dose of Vitamin A","vitamina","vitamin-A","VITAMIN-A","first dose of vitamin-A"],
+   "responses": ["Infants who have received their first dose of Measles Rubella vaccine (MR) are eligible for Vitamin A supplementation at 9 months or it can be given anytime up to 5 years of age if missed or delayed.",
+   "Infants who have received their first dose of Measles Rubella vaccine (MR) are eligible for Vitamin A supplementation at 9 months or it can be given anytime up to 5 years of age if missed or delayed."],
+   "context": [""]
+  },
+  {"tag": "when first dose of Vitamin A ?",
+  "patterns": ["when to  take first dose Vitamin A ?","Vitamin A","VITAMIN A 1","when can take Vitamin A 1","First dose of Vitamin A","who can take first dose of Vitamin A","vitamina","vitamin-A","VITAMIN-A","first dose of vitamin-A","vitamin A1","vitamin A-1"],
+  "responses": ["Infants who have received their first dose of Measles Rubella vaccine (MR) can receive Vitamin A supplementation at 9 months, or anytime up to 5 years if missed or delayed.",
+   "Infants who have received their first dose of Measles Rubella vaccine (MR) can receive Vitamin A supplementation at 9 months, or anytime up to 5 years if missed or delayed."],
+   "context": [""]
+  },
+  {
+  "tag":"Vitamin_A ( 2nd to 9th  dose) ",
+  "patterns":["who can take 2nd dose of Vitamin A?","who can take 3rd dose of Vitamin A?","who can take 4th dose of Vitamin A?","who can take 5th dose of Vitamin A?","who can take 6th dose of Vitamin A?","who can take 7th dose of Vitamin A?","who can take 8th dose of Vitamin A?","who can take 9th dose of Vitamin A?","who can take second dose of Vitamin A?","who can take third dose of Vitamin A?","who can take fourth dose of Vitamin A?","who can take fifth dose of Vitamin A?",
+    "who can take sixth dose of Vitamin A?","who can take seventh dose of Vitamin A?","who can take eighth dose of Vitamin A?","who can take nineth dose of Vitamin A?","vitamin A 2","vitamin A 3","vitamin-A 4","vitamin A-5","vitamin A-6","vitamin A_7","vitamin A_8","vitamin A 4","vitamin A 5","vitamin A 6"],
+  "responses":["Vitamin A ( 2nd to 9th  dose)is given to children at 16 to 23 months with MR 2nd dose, subsequent doses at an interval of 6 months, upto 5 years "],
+  "context":[""]
+  },
+
+  {"tag": "who_bOPV_Booster?",
+   "patterns": ["who can take bOPV Booster?","who can take bOPV Booster","bopv booster","bOPV BOOSTER","bopvbooster"],
+   "responses": ["The bOPV booster is given to children between 16 and 23 months of age, or it can be given anytime up to 2 years of age if missed or delayed.",
+   "The bOPV booster is given to children between 16 and 23 months of age, or it can be given anytime up to 2 years of age if missed or delayed."],
+   "context": [""]
+  },
+  {"tag": "when_bOPV_Booster?",
+   "patterns": ["when can take bOPV Booster?","when can take bOPV Booster","bopv booster","bOPV BOOSTER","bopvbooster"],
+   "responses": ["Children typically receive the bOPV booster between 16 and 23 months, but it can be given up to 2 years of age if delayed or missed.",
+   "Children typically receive the bOPV booster between 16 and 23 months, but it can be given up to 2 years of age if delayed or missed."],
+   "context":[""]
+  },
+
+ {"tag": "who_DPT_Booster-1?",
+  "patterns": ["who can take DPT Booster-1?", "who can take DPT Booster 1?","DPT BOOSTER-1","dpt booster-1","DPT Booster1","DPT Booster-1","First dose of DPT Booster","First dose of dpt booster","dpt1","dpt 1","first DPT"],
+  "responses": ["The first dose of DPT Booster is given to children between 16 and 23 months of age, or it can be given anytime up to 7 years of age if missed or delayed."
+  ,"The first dose of DPT Booster is given to children between 16 and 23 months of age, or it can be given anytime up to 7 years of age if missed or delayed."],
+  "context": [""]
+ },
+ {"tag": "when_DPT_Booster-1",
+ "patterns": ["when can take DPT Booster-1?", "when to take DPT Booster-1?","DPT BOOSTER-1","dpt booster-1","DPT Booster1","DPT Booster-1","First dose of DPT Booster","First dose of dpt booster","dpt1","dpt 1","first DPT"],
+  "responses": ["The first DPT Booster dose is usually given to children within 16-23 months, with a catch-up period up to 7 years if necessary.",
+ "Children typically receive their second DPT Booster dose between 5-6 years old, with a catch-up period up to 7 years old if necessary."],
+  "context": [""]
+ },
+ {"tag": "who DPT Booster-2?",
+  "patterns": ["who can take DPT Booster-2?", "who can take DPT Booster 2?","DPT BOOSTER-2","dpt booster-2","DPT Booster2","DPT Booster-2","second dose of DPT Booster","second dose of dpt booster","dpt2","dpt 2","second DPT"],
+  "responses": ["The second dose of DPT Booster is given to children between 5-6 years old, or it can be given anytime up to 7 years of age if missed or delayed."
+  ,"The second dose of DPT Booster is given to children between 5-6 years old, or it can be given anytime up to 7 years of age if missed or delayed."],
+  "context": [""]
+ },
+ {"tag": "when DPT Booster-2",
+ "patterns": ["when can take DPT Booster-2?", "when to take DPT Booster-2?","DPT BOOSTER-2","dpt booster-2","DPT Booster2","DPT Booster 2","DPT Booster-2","second dose of DPT Booster","second dose of dpt booster","dpt2","dpt 2","second DPT"],
+  "responses": ["Children typically receive their second DPT Booster dose between 5-6 years old, with a catch-up period up to 7 years old if necessary.",
+ "Children typically receive their second DPT Booster dose between 5-6 years old, with a catch-up period up to 7 years old if necessary."],
+  "context": [""]
+ },
+ {"tag": "who DPT Booster?",
+  "patterns": ["who can take DPT Booster?", "who can take DPT Booster?","DPT BOOSTER","dpt booster","DPT Booster","dpt","DPT","2 and 3 dose of dpt","second and third dose of dpt"],
+  "responses": ["The DPT Booster vaccine is given in two doses: the first dose is given to children between 16-23 months of age, or up to 7 years old if missed or delayed; and the second dose is given between 5-6 years old, or up to 7 years old if missed or delayed."],
+  "context": [""]
+ },
+ {"tag": "when DPT Booster",
+ "patterns": ["when can take DPT Booster?", "when to take DPT Booster?","DPT BOOSTER","dpt booster","DPT Booster","dpt","DPT","2 and 3 dose of dpt","second and third dose of dpt"],
+  "responses": ["Children typically receive two doses of DPT Booster: the first dose within 16-23 months, with a catch-up period up to 7 years if necessary; and the second dose between 5-6 years old, with a catch-up period up to 7 years old if necessary."],
+  "context": [""]
+ },
+ {
+  "tag":"children td vaccine",
+  "patterns":["when can the children take td vaccine?","children","children td"],
+  "responses":["The recommended age for the td vaccine for the children is of 10 and 16 years of age but it can be given up to 16 years of age if not received as scheduled."],
+  "context":[]
+},
+{
+  "tag":"td vaccine",
+  "patterns":["who can take td vaccine?","td","TD","td pregnant and children","pregnant and chilren","pregnant and chilren"],
+  "responses":["The td vaccine can be given to the pregnant women in 2 doses: The First dose of Td vaccine is typically recommended for pregnant women during their first prenatal visit. This is the initial checkup with a healthcare professional after finding out you're pregnant. If the vaccine is not administered at this visit, it can still be given up to 4 weeks before your Expected Date of delivery  (EDD).  However, it is recommended to get the vaccine at any point during pregnancy if not received earlier and the Second dose of Td vaccine is typically offered to the Pregnant women,any time after the 4 weeks from the day of receiving Td-1 vaccine. Td Booster vaccine is typically recommended for the pregnant women if they have received both Td-1 and Td-2 vaccine doses during  pregnancy within the last 3 years, the Td-Booster vaccine can be given up to 4 weeks before your Expected Date of delivery(EDD) ,If not received, any time before delivery. td vaccine is also given to the childern of age 10 and 16 ,but it can be given up to 16 years of age if not received as scheduled."],
+  "context":[]
+},
+{"tag": "how_td_1",
+  "patterns": ["how to take Td-1 vaccine?","What is the recommended dosage for the Td-1 vaccine?","Where should the Td-1 vaccine be administered?","td 1 vaccine administration"],
+  "responses":["The first dose of Td vaccine is administered to pregnant women as a 0.5 ml intramuscular injection in the deltoid region(rounded, triangular muscle located on the uppermost part of the arm)."],
+ "context": [""]
+},
+{"tag": "how_td_2",
+"patterns": ["how to take Td-2 vaccine?","What is the recommended dosage for the Td 2 vaccine?","Where should the Td-2 vaccine be administered?","td 2 vaccine administration"],
+"responses":["The Second dose of Td vaccine is administered to pregnant women as a 0.5 ml intramuscular injection in the deltoid region(rounded, triangular muscle located on the uppermost part of the arm)","Administer 0.5 ml of the Measles Rubella (MR) vaccine for the 1st dose sub-cutaneously to infants in the upper right arm."],
+"context": [""]
+},
+{"tag": "how_td_booster",
+ "patterns": ["how to take Td-Booster vaccine?","What is the recommended dosage for the Td-Booster vaccine?","Where should the Td-Booster vaccine be administered?","td booster vaccine administration"],
+ "responses":["The Third dose(Booster) of Td vaccine is administered to pregnant women as a 0.5 ml intramuscular injection in the deltoid region (rounded, triangular muscle located on the uppermost part of the arm)."],
+ "context": [""]
+},
+{"tag": "how_bcg",
+ "patterns": ["how to take BCG vaccine?","What is the recommended dosage for the BCG vaccine?","Where should the BCG vaccine be administered?","bcg vaccine administration"],
+ "responses":["For infants BCG vaccine up to 1 month of age, administer 0.05 ml intra-dermally in the upper arm 's deltoid region on the left side. For infants aged 1 month to 1 year, administer 0.1 ml in the same manner."],
+ "context": [""]
+},
+{"tag": "how_Hepatitis_B_Birth",
+ "patterns": ["how to take  Hepatitis B -Birth dose vaccine?","What is the recommended dosage for the Hepatitis B  vaccine?","Where should the Hepatitis B  vaccine be administered?","hepatitis b vaccine administration"],
+ "responses":["For infants administer 0.5 ml intra-muscularly on the antero-lateral side of the mid-thigh on the left side."],
+ "context": [""]
+},
+{"tag": "how_bOPV_0",
+ "patterns": ["how to take bOPV-0 (Zero dose) vaccine?","What is the recommended dosage for the bOPV-0  vaccine?","Where should the bOPV-0  vaccine be administered?","bopv 0 vaccine administration"],
+ "responses":["For infants administer 2 drops orally into the mouth"],
+ "context": [""]
+},
+{"tag": "how_bopv_1_2_3",
+ "patterns": ["how to take  bOPV 1, 2 and 3 vaccine?","What is the recommended dosage for the bOPV 1, 2 and 3 vaccine?","Where should the bOPV 1, 2 and 3 vaccine be administered?","bopv 1 2 3 vaccine administration"],
+ "responses":["For infants Administer 2 drops of bOPV 1, 2, and 3 vaccines orally into the mouth"],
+ "context": [""]
+},
+{"tag": "how_Rotavirus",
+ "patterns": ["how to take  Rotavirus vaccine 1,2 and 3 vaccine?","What is the recommended dosage for the Rotavirus vaccine 1,2 and 3 vaccine?","Where should the Rotavirus vaccine 1,2 and 3 vaccine be administered?","rotavarius vaccine administration"],
+ "responses":["For infants Administer 5 drops or 2 ml of Rotavirus vaccine 1, 2, and 3 orally into the mouth."],
+ "context": [""]
+},
+{"tag": "how_f_IPV_1_2_3",
+ "patterns": ["how to take  f-IPV 1, 2 and 3 vaccine?","What is the recommended dosage for the f-IPV 1, 2 , 3 vaccine?","Where should the f-IPV 1, 2 , 3 vaccine be administered?","f ipv 1 2 3 vaccine administration"],
+ "responses":["For infants Administer 0.1 ml of f-IPV 1 and 2 intra-dermally in the upper arm on the right side, and administer 0.1 ml of f-IPV 3 intra-dermally in the upper arm on the left side."],
+ "context": [""]
+},
+{"tag": "how_Pneumococcal_Conjugate_Vaccine_(PCV)",
+ "patterns": ["how to take  Pneumococcal Conjugate Vaccine (PCV) (2 Primary +1 booster) vaccines?","What is the recommended dosage for the Pneumococcal Conjugate Vaccine (PCV) (2 Primary +1 booster)  vaccine?","Where should the Pneumococcal Conjugate Vaccine (PCV) (2 Primary +1 booster)  vaccine be administered?","Pneumococcal_Conjugate_Vaccine_(PCV) vaccine administration"],
+ "responses":["For infants Administer 0.5 ml of the Pneumococcal Conjugate Vaccine (PCV) (2 primary doses + 1 booster) intra-muscularly on the antero-lateral side of the mid-thigh on the right side."],
+ "context": [""]
+},
+{"tag": "how_Pentavalent_1_2_3_vaccine",
+ "patterns": ["how to take  Pentavalent 1, 2 and 3 vaccine?","What is the recommended dosage for the Pentavalent 1, 2 and 3 vaccine?","Where should the Pentavalent 1, 2 and 3 vaccine be administered?","Pentavalent 1 2 3 vaccine administration"],
+ "responses":["For infants Administer 0.5 ml of Pentavalent 1, 2, and 3 intra-muscularly on the antero-lateral side of the mid-thigh on the left side.","Administer 0.5 ml of Pentavalent 1, 2, and 3 vaccines intra-muscularly to infants on the antero-lateral side of the mid-thigh on the left side.","For infants, inject 0.5 ml of Pentavalent 1, 2, and 3 vaccines into the antero-lateral side of the mid-thigh on the left side, using an intra-muscular method."],
+ "context": [""]
+},
+{"tag": "how_Measles_Rubella_vaccine_(MR)_1",
+ "patterns": ["how to take  Measles Rubella vaccine (MR) 1st dose vaccine?","What is the recommended dosage for the Measles Rubella vaccine (MR) 1 vaccine?","Where should the Measles Rubella vaccine (MR) 1 vaccine be administered?","Measles Rubella vaccine mr 1 vaccine administration"],
+ "responses":["For infants Administer 0.5 ml of the Measles Rubella (MR) vaccine for the 1st dose sub-cutaneously in the upper arm on the right side."],
+ "context": [""]
+},
+{"tag": "how_Japanese_Encephalitis_1_vaccine_je_1",
+ "patterns": ["how to take Japanese Encephalitis  1 vaccine?","What is the recommended dosage for the Japanese Encephalitis– 1 vaccine?","Where should the JE-1 vaccine be administered?","Japanese Encephalitis 1 vaccine administration"],
+ "responses":["For infants Administer 0.5 ml of the Japanese Encephalitis 1 vaccine as follows: for the killed vaccine, administer intra-muscularly on the antero-lateral side of the mid-thigh on the left side; for the live attenuated vaccine, administer subcutaneously in the upper arm on the left side."],
+ "context": [""]
+},
+{"tag": "how_Vitamin_A_1",
+ "patterns": ["how to take Vitamin A (1st dose) vaccine?","What is the recommended dosage for the Vitamin A (1st dose) vaccine?","Where should the Vitamin A (1st dose) vaccine be administered?","Vitamin A 1 vaccine administration"],
+ "responses":["For infants Administer 1 ml (1 lakh IU) of Vitamin A for the 1st dose orally into the mouth."],
+ "context": [""]
+},
+{"tag": "how_bOPV_booster",
+ "patterns": ["how to take bOPV Booster vaccine?","What is the recommended dosage for the bOPV Booster vaccine?","Where should the bOPV Booster vaccine be administered?","bopv booster vaccine administration"],
+ "responses":["For children Administer 2 drops of the bOPV booster orally into the mouth for children."],
+ "context": [""]
+},
+{"tag": "how_MR_2nd_dose",
+ "patterns": ["how to take MR 2nd dose vaccine?","What is the recommended dosage for the MR 2 vaccine?","Where should the MR 2 vaccine be administered?","Measles Rubella 2 vaccine administration"],
+ "responses":["For children Administer 0.5 ml of the Measles Rubella (MR) vaccine for the 2nd dose sub-cutaneously in the upper arm on the right side."],
+ "context": [""]
+},
+{"tag": "how_DPT_Booster_1",
+ "patterns": ["how to take DPT Booster-1 vaccine?","What is the recommended dosage for the DPT Booster-1 vaccine?","Where should the DPT Booster-1 vaccine be administered?"],
+ "responses":["For children Administer 0.5 ml of the DPT Booster-1 intra-muscularly on the antero-lateral side of the mid-thigh on the left side."],
+ "context": [""]
+},
+{"tag": "how_je_2",
+ "patterns": ["how to take second dose JE vaccine  vaccine?","What is the recommended dosage for the JE-2 vaccine?","Where should the JE-2 vaccine be administered?"],
+ "responses":["For children Administer 0.5 ml of the second dose of the Japanese Encephalitis (JE) vaccine as follows: for the killed vaccine, administer intra-muscularly on the antero-lateral side of the mid-thigh on the right side; for the live attenuated vaccine, administer subcutaneously in the upper arm on the left side."],
+ "context": [""]
+},
+{"tag": "how_Vitamin_A_( 2nd to 9th  dose)",
+ "patterns": ["how to take Vitamin A ( 2nd to 9th  dose)  vaccine?","What is the recommended dosage for the Vitamin A ( 2nd to 9th  dose) vaccine?","Where should the Vitamin A ( 2nd to 9th  dose) vaccine be administered?"],
+ "responses":["For children the 2nd to 9th doses of Vitamin A, each 2 ml (2 lakh IU), should be administered orally."],
+ "context": [""]
+},
+{"tag": "how_DPT_Booster_2",
+ "patterns": ["how to take DPT Booster-2 vaccine?","What is the recommended dosage for the DPT Booster-2 vaccine?","Where should the DPT Booster-2 vaccine be administered?"],
+ "responses":["For children the DPT Booster-2, 0.5 ml, should be administered intra-muscularly in the upper left arm."],
+ "context": [""]
+},
+{"tag": "how_td",
+ "patterns": ["how to take Td (Teen) vaccine?","What is the recommended dosage for the Td vaccine?","Where should the Td vaccine be administered?"],
+ "responses":["For children the Td vaccine, 0.5 ml should be administered intra-muscularly in the upper left arm."],
+ "context": [""]
+}
+]
+}
